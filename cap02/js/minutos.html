@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <script>
+      const dias = Number(prompt("informe os dias da viagem"));
+      const horas = Number(prompt("informe as horas da viagem"));
+      const minutos = dias * 24;
+      const diasminutos = minutos * 60;
+      alert("dias em minutos: " + diasminutos);
+
+      const minutoshoras = horas * 60;
+      alert("horas em minutos: " + minutoshoras);
+      const total = diasminutos + minutoshoras;
+
+      alert(
+        "total da viagem: \n dias em minutos: " +
+          diasminutos +
+          "\n horas em minutos: " +
+          minutoshoras +
+          "\n total da viagem em minutos: " +
+          total
+      );
+    </script>
+  </body>
+</html>

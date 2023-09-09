@@ -1,0 +1,4 @@
+No exemplo 2.1, ultilizamos o objeto 'document' que a partir da execução do método 'querySelector()' pode
+referenciar as tags 'form' e 'h3' da página.
+Já a propriedade 'value' é utilizada para obter o conteúdo digitado no campo de formulário.
+A propriedade 'innerText', por sua vez, altera um atributo do documento, que faz om que a resposta seja exibida na página.

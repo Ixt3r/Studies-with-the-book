@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+  </head>
+  <body>
+    <p>
+      Elaborar um programa o qual leia o preço de um produto e informe as opções
+      de pagamento. Calcule e informe o valor do pagamento à vista com 10% de
+      desconto e o valor em 3x
+    </p>
+    <script>
+      const preço = Number(prompt("informe o valor do produto: "));
+      const aVista = preço * 0.9;
+      const parcelado = preço / 3;
+      alert(
+        "Valor do produto à vista com 10% de desconto: " +
+          aVista +
+          "\nParcelado em 3x: " +
+          parcelado.toFixed(2)
+      );
+    </script>
+  </body>
+</html>
